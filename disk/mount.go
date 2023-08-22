@@ -137,10 +137,6 @@ func (m *MountManager) Mount(sourcepath, destpath, filesystem string, options ..
 		return err
 	}
 
-	if _, ok := m.mounts[dpath]; ok {
-		return fmt.Errorf("Path already known to MountManager: %v", dpath)
-	}
-
 	command := []string{
 		sourcepath,
 		destpath,
