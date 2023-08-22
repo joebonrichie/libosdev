@@ -17,8 +17,8 @@
 package pkg
 
 import (
-	"github.com/solus-project/libosdev/commands"
-	"github.com/solus-project/libosdev/disk"
+	"github.com/joebonrichie/libosdev/commands"
+	"github.com/joebonrichie/libosdev/disk"
 	"io/ioutil"
 	"os"
 	"os/exec"

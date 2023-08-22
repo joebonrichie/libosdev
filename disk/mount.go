@@ -18,7 +18,7 @@ package disk
 
 import (
 	"fmt"
-	"github.com/solus-project/libosdev/commands"
+	"github.com/joebonrichie/libosdev/commands"
 	"os"
 	"path/filepath"
 	"sort"
